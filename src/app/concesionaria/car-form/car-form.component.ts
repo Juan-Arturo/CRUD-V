@@ -2,7 +2,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Car } from '../../interfaces/Car';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { CarService } from '../../services/car-service.service';
+import { CarService } from '../../services/car.service';
 
 
 @Component({
