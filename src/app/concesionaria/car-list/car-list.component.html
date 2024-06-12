@@ -1,0 +1,12 @@
+
+<div>
+    <h1>Car List</h1>
+    <ul>
+      <li *ngFor="let car of cars">
+          {{car.id}} {{ car.make }} {{ car.model }} ({{ car.year }})
+        <button (click)="updateCar(car)">Update</button>
+        <button (click)="deleteCar(car.id)">Delete</button>
+      </li>
+    </ul>
+</div>
+  
